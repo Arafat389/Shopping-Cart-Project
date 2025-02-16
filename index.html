@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Ecommerce Website</a>
+        <div id="cart-icon">
+            <i class="ri-shopping-bag-line"></i>
+            <span class="cart-item-count"></span>
+        </div>
+    </header>
+
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+            <!-- <div class="cart-box">
+                <img src="./images/product1.jpg" class="cart-img">
+                <div class="cart-detail">
+                    <h2 class="cart-product-title">Casual Black Polo</h2>
+                    <span class="cart-price">$100</span>
+                    <div class="cart-quantity">
+                        <button id="decrement">-</button>
+                        <span class="number">1</span>
+                        <button id="increment">+</button>
+                    </div>
+                </div>
+                <i class="ri-delete-bin-line cart-remove"></i>
+            </div> -->
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+        </div>
+        <button class="btn-buy">Buy Now</button>
+        <i class="ri-close-line" id="cart-close"></i>
+    </div>
+
+    <section class="shop">
+        <h1 class="section-title">Shop Products</h1>
+        <div class="product-content">
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="./images/product1.jpg" alt="">
+                </div>
+                <h2 class="product-title">Casual Black Polo</h2><br>
+                <p class="description">A short-sleeved, pullover sport shirt, usually of cotton or cotton like knit, with a round neckband or a turnover collar.</p><br>
+                <div class="price-and-cart">
+                    <span class="price">$100</span>
+                    <button class="add-cart">Add To Cart</button>
+                     <!-- <i class="ri-shopping-bag-line add-cart"></i> -->
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="./images/product2.jpg" alt="">
+                </div>
+                <h2 class="product-title">Waterproof Hoodie</h2><br>
+                <p class="description">A hoodie is a type of sweatshirt with a hood that, when worn up, covers most of the head and neck, and sometimes the face.</p><br>
+                <div class="price-and-cart">
+                    <span class="price">$50</span>
+                    <button class="add-cart">Add To Cart</button>
+                    <!-- <i class="ri-shopping-bag-line add-cart"></i> -->
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="./images/product3.jpg" alt="">
+                </div>
+                <h2 class="product-title">Blue Sweatshirt</h2><br>
+                <p class="description">A sweatshirt is a long-sleeved pullover shirt or jacket fashioned out of thick, usually cotton, cloth material. Sweatshirts are almost exclusively casual attire and hence not as formal as some sweaters.</p><br>
+                <div class="price-and-cart">
+                    <span class="price">$20</span>
+                    <button class="add-cart">Add To Cart</button>
+                    <!-- <i class="ri-shopping-bag-line add-cart"></i> -->
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="./images/product4.jpg" alt="">
+                </div>
+                <h2 class="product-title">Hooded Urban Jacket</h2><br>
+                <p class="description">Urban Run Hood Jacket M is a lightweight, wind-repellent running jacket that comes with stretchy ventilation panels at sweat zones for optimal body-temperature management.</p><br>
+                <div class="price-and-cart">
+                    <span class="price">$125</span>
+                    <button class="add-cart">Add To Cart</button>
+                    <!-- <i class="ri-shopping-bag-line add-cart"></i> -->
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="./images/product5.jpg" alt="">
+                </div>
+                <h2 class="product-title">Cold Weather Jacket</h2><br>
+                <p class="description">A good winter jacket is defined by its warmth and lightweight design. It should have effective insulation, such as down, synthetic insulation material, or fleece.</p><br>
+                <div class="price-and-cart">
+                    <span class="price">$147</span>
+                    <button class="add-cart">Add To Cart</button>
+                    <!-- <i class="ri-shopping-bag-line add-cart"></i> -->
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="./images/product6.jpg" alt="">
+                </div>
+                <h2 class="product-title">Sporty Jacket</h2><br>
+                <p class="description">A sports jacket is a short single-breasted coat, originally men's wear but in the early 2000s worn by both men and women. Similar to a suit jacket in fit.</p><br>
+                <div class="price-and-cart">
+                    <span class="price">$80</span>
+                    <button class="add-cart">Add To Cart</button>
+                    <!-- <i class="ri-shopping-bag-line add-cart"></i> -->
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="./images/product7.jpg" alt="">
+                </div>
+                <h2 class="product-title">Olive Heritage Hoodie</h2><br>
+                <p class="description">We have improved the fit on these sweatshirts recently so this product is the last of the old style and hence, after washing will sit a little shorter on the body. This garment is made from 100% natural cotton jersey which has a tendency to shrink when washed.</p><br>
+                <div class="price-and-cart">
+                    <span class="price">$62</span>
+                    <button class="add-cart">Add To Cart</button>
+                    <!-- <i class="ri-shopping-bag-line add-cart"></i> -->
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="./images/product8.jpg" alt="">
+                </div>
+                <h2 class="product-title">Bright Horizon Polo</h2><br>
+                <p class="description">Polo shirts are usually made of knitted cotton (rather than woven cloth), usually a piqué knit, or less commonly an interlock knit (the latter used frequently, though not exclusively, with pima cotton polos), or using other fibers such as silk, wool, synthetic fibers, or blends of natural.</p><br>
+                <div class="price-and-cart">
+                    <span class="price">$70</span>
+                    <button class="add-cart">Add To Cart</button>
+                    <!-- <i class="ri-shopping-bag-line add-cart"></i> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
